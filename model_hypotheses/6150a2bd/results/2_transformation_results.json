@@ -1,0 +1,86 @@
+[
+  {
+    "grids": [
+      [
+        [3, 3, 8],
+        [3, 7, 0],
+        [5, 0, 0]
+      ],
+      [
+        [0, 0, 5],
+        [0, 7, 3],
+        [8, 3, 3]
+      ],
+      [
+        [0, 0, 5],
+        [0, 7, 3],
+        [8, 3, 3]
+      ]
+    ],
+    "titles": ["Input Grid", "Expected Output", "Transformed Output"],
+    "match_status": "Transformed Correctly",
+    "dimensions": [
+      [3, 3],
+      [3, 3],
+      [3, 3]
+    ],
+    "type": "Training",
+    "idx": 0
+  },
+  {
+    "grids": [
+      [
+        [5, 5, 2],
+        [1, 0, 0],
+        [0, 0, 0]
+      ],
+      [
+        [0, 0, 0],
+        [0, 0, 1],
+        [2, 5, 5]
+      ],
+      [
+        [0, 0, 0],
+        [0, 0, 1],
+        [2, 5, 5]
+      ]
+    ],
+    "titles": ["Input Grid", "Expected Output", "Transformed Output"],
+    "match_status": "Transformed Correctly",
+    "dimensions": [
+      [3, 3],
+      [3, 3],
+      [3, 3]
+    ],
+    "type": "Training",
+    "idx": 1
+  },
+  {
+    "grids": [
+      [
+        [6, 3, 5],
+        [6, 8, 0],
+        [4, 0, 0]
+      ],
+      [
+        [0, 0, 4],
+        [0, 8, 6],
+        [5, 3, 6]
+      ],
+      [
+        [0, 0, 4],
+        [0, 8, 6],
+        [5, 3, 6]
+      ]
+    ],
+    "titles": ["Input Grid", "Expected Output", "Transformed Output"],
+    "match_status": "Transformed Correctly",
+    "dimensions": [
+      [3, 3],
+      [3, 3],
+      [3, 3]
+    ],
+    "type": "Test",
+    "idx": 0
+  }
+]

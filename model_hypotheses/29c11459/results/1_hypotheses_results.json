@@ -1,0 +1,42 @@
+[
+    {
+        "example_index": 0,
+        "is_background_preserved": [
+            false,
+            "Row 1, Column 1: Background altered."
+        ],
+        "is_color_preserved": true,
+        "is_fixed_expansion_factor": true,
+        "is_horizontal_expansion": [
+            false,
+            "Row 1: Number of colors after expansion does not match expectation."
+        ],
+        "is_no_rotation_or_scaling": true,
+        "is_row_wise_transformation": [
+            false,
+            "Row 1: Background cells altered."
+        ],
+        "is_separator_inserted": true,
+        "is_single_separator_insertion": true
+    },
+    {
+        "example_index": 1,
+        "is_background_preserved": [
+            false,
+            "Row 3, Column 1: Background altered."
+        ],
+        "is_color_preserved": true,
+        "is_fixed_expansion_factor": true,
+        "is_horizontal_expansion": [
+            false,
+            "Row 3: Number of colors after expansion does not match expectation."
+        ],
+        "is_no_rotation_or_scaling": true,
+        "is_row_wise_transformation": [
+            false,
+            "Row 3: Background cells altered."
+        ],
+        "is_separator_inserted": true,
+        "is_single_separator_insertion": true
+    }
+]

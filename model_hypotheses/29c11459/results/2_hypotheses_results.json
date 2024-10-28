@@ -1,0 +1,18 @@
+[
+    {
+        "example_index": 0,
+        "is_fixed_segment_lengths": true,
+        "is_fixed_separator_position": true,
+        "is_order_preserved": true,
+        "is_segmented_row_reconstruction": true,
+        "is_single_transformation_per_row": true
+    },
+    {
+        "example_index": 1,
+        "is_fixed_segment_lengths": true,
+        "is_fixed_separator_position": true,
+        "is_order_preserved": true,
+        "is_segmented_row_reconstruction": true,
+        "is_single_transformation_per_row": true
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "example_index": 0,
+        "are_background_and_non_background_reordered_separately": [
+            false,
+            "Background cells have been reordered. Input backgrounds: [(1, 2), (2, 1), (2, 2)], Output backgrounds: [(0, 0), (0, 1), (1, 0)]"
+        ],
+        "are_non_background_colors_rotated_90_clockwise": [
+            false,
+            "90-degree rotated grid does not match output. Expected [[5, 3, 3], [0, 7, 3], [0, 0, 8]], got [[0, 0, 5], [0, 7, 3], [8, 3, 3]]"
+        ],
+        "are_non_background_colors_shifted_diagonally": [
+            false,
+            "Diagonally shifted grid does not match output. Expected [[3, 3, 5], [3, 7, 0], [8, 0, 0]], got [[0, 0, 5], [0, 7, 3], [8, 3, 3]]"
+        ],
+        "are_specific_colors_moved_to_specific_positions": true,
+        "does_transformation_involve_rotation_and_color_reassignment": true,
+        "is_grid_mirrored_horizontally": [
+            false,
+            "Mirrored horizontally grid does not match output. Expected [[8, 3, 3], [0, 7, 3], [0, 0, 5]], got [[0, 0, 5], [0, 7, 3], [8, 3, 3]]"
+        ],
+        "is_grid_mirrored_vertically": [
+            false,
+            "Mirrored vertically grid does not match output. Expected [[5, 0, 0], [3, 7, 0], [3, 3, 8]], got [[0, 0, 5], [0, 7, 3], [8, 3, 3]]"
+        ],
+        "is_grid_rotated_180_degrees": true
+    },
+    {
+        "example_index": 1,
+        "are_background_and_non_background_reordered_separately": [
+            false,
+            "Background cells have been reordered. Input backgrounds: [(1, 1), (1, 2), (2, 0), (2, 1), (2, 2)], Output backgrounds: [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1)]"
+        ],
+        "are_non_background_colors_rotated_90_clockwise": [
+            false,
+            "90-degree rotated grid does not match output. Expected [[0, 1, 5], [0, 0, 5], [0, 0, 2]], got [[0, 0, 0], [0, 0, 1], [2, 5, 5]]"
+        ],
+        "are_non_background_colors_shifted_diagonally": [
+            false,
+            "Diagonally shifted grid does not match output. Expected [[5, 1, 0], [5, 0, 0], [2, 0, 0]], got [[0, 0, 0], [0, 0, 1], [2, 5, 5]]"
+        ],
+        "are_specific_colors_moved_to_specific_positions": [
+            false,
+            "Color 5 moved from (0,0) to (2, 1), which is not expected."
+        ],
+        "does_transformation_involve_rotation_and_color_reassignment": true,
+        "is_grid_mirrored_horizontally": [
+            false,
+            "Mirrored horizontally grid does not match output. Expected [[2, 5, 5], [0, 0, 1], [0, 0, 0]], got [[0, 0, 0], [0, 0, 1], [2, 5, 5]]"
+        ],
+        "is_grid_mirrored_vertically": [
+            false,
+            "Mirrored vertically grid does not match output. Expected [[0, 0, 0], [1, 0, 0], [5, 5, 2]], got [[0, 0, 0], [0, 0, 1], [2, 5, 5]]"
+        ],
+        "is_grid_rotated_180_degrees": true
+    }
+]
