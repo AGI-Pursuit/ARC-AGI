@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 import random
@@ -159,7 +160,7 @@ def generate_dataset(num_pairs_per_transformation=100):
     
     return dataset
 
-def save_dataset_to_json(dataset, filename="arc_grid_dataset.json"):
+def save_dataset_to_json(dataset, filename):
     """
     Save the dataset to a JSON file.
     
@@ -199,8 +200,12 @@ def main():
     # Generate the dataset
     dataset = generate_dataset(num_pairs_per_transformation=100)
     
-    # Save the dataset to a JSON file
-    save_dataset_to_json(dataset, filename="arc_grid_dataset.json")
+    # Define the output path using os.path
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(script_dir, "../data/generated/arc_grid_dataset.json")
+    
+    # Save the dataset to the JSON file
+    save_dataset_to_json(dataset, filename=output_path)
     
     # Visualize a few examples from both transformations
     num_examples_to_visualize = 4
