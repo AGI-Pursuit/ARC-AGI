@@ -1,31 +1,10 @@
-"""
-grid_transform_generator.py
-
-This script generates input/output grid pairs for the ARC-AGI challenge.
-Supported Transformations:
-1. Vertical Flip (Mirroring along the vertical axis)
-2. Color Change (Changing the shape's color to a different non-black color)
-
-Features:
-- Generates grids of varying sizes with single contiguous shapes.
-- Ensures shapes are centrally located to accommodate vertical flips without exceeding grid boundaries.
-- Provides visualization and optional saving of generated grids.
-
-Usage:
-    python grid_transform_generator.py
-
-Author: [Your Name]
-Date: [Date]
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import random
 from copy import deepcopy
 import json
-from matplotlib.colors import ListedColormap  # Import ListedColormap
+from matplotlib.colors import ListedColormap
 
-# Define the color palette as per ARC tasks
 color_palette = [
     '#000000',  # 0: Black
     '#0173d9',  # 1: Blue
@@ -39,7 +18,6 @@ color_palette = [
     '#860b25',  # 9: Maroon
 ]
 
-# Create a custom colormap using the color palette
 custom_cmap = ListedColormap(color_palette)
 
 def generate_grid_size(min_size=5, max_size=10):
@@ -224,7 +202,7 @@ def main():
     # Save the dataset to a JSON file
     save_dataset_to_json(dataset, filename="arc_grid_dataset.json")
     
-    # Optionally, visualize a few examples from both transformations
+    # Visualize a few examples from both transformations
     num_examples_to_visualize = 4
     print(f"Visualizing {num_examples_to_visualize} examples from each transformation...")
     
